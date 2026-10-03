@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galerie — Dar Sonia, Montech</title>
+  <meta name="description" content="Découvrez l'institut Dar Sonia en images : hammam, salles de soins et espace détente.">
+  <link rel="icon" href="images/accueil/fleurmenu.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alice&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-galerie page-pleine">
+  <header class="entete">
+    <div class="entete__inner">
+      <a class="logo" href="index.html">
+        <img src="images/accueil/fleurmenu.png" alt="" width="48" height="29">
+        <span class="logo__texte">
+          <span class="logo__nom">DAR SONIA</span>
+          <span class="logo__baseline">Temple du bien-être</span>
+        </span>
+      </a>
+
+      <!-- Menu mobile sans JavaScript : la case à cocher ouvre/ferme le menu -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu"><span></span><span></span><span></span></label>
+
+      <nav class="nav" aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="prestations.html">Nos prestations</a></li>
+          <li><a href="tarifs.html">Nos tarifs</a></li>
+          <li><a href="galerie.html" class="actif" aria-current="page">Galerie</a></li>
+          <li><a href="equipe.html">Nous</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a class="btn btn--or" href="https://www.planity.com/dar-sonia-82700-montech" target="_blank" rel="noopener">Réserver</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="large">
+
+        <header class="entete-page">
+          <div class="entete-page__titre">
+            <img src="images/nosprestations/fleur.png" alt="">
+            <h1>Notre institut en images</h1>
+          </div>
+          <p>Plongez dans notre univers de bien-être</p>
+        </header>
+
+        <!-- Clic sur une photo = ouverture en grand dans un nouvel onglet -->
+        <div class="galerie">
+          <a href="images/galerie/1.png" target="_blank" title="Agrandir la photo">
+            <img src="images/galerie/1.png" alt="L’accueil et le salon de l’institut" loading="lazy">
+          </a>
+          <a href="images/galerie/2.png" target="_blank" title="Agrandir la photo">
+            <img src="images/galerie/2.png" alt="La salle de massage" loading="lazy">
+          </a>
+          <a href="images/galerie/3.png" target="_blank" title="Agrandir la photo">
+            <img src="images/galerie/3.png" alt="Le hammam traditionnel" loading="lazy">
+          </a>
+          <a href="images/galerie/4.png" target="_blank" title="Agrandir la photo">
+            <img src="images/galerie/4.png" alt="La cabine de soins" loading="lazy">
+          </a>
+          <a href="images/galerie/5.png" target="_blank" title="Agrandir la photo">
+            <img src="images/galerie/5.png" alt="La cabine d’épilation" loading="lazy">
+          </a>
+        </div>
+
+      </div>
+
+      <img class="banniere" src="images/galerie/banniere.png" alt="Un moment pour vous… Détente – Beauté – Équilibre">
+    </section>
+  </main>
+</body>
+</html>
